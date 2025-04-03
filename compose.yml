@@ -1,0 +1,11 @@
+services:
+  valheim:
+    image: lloesche/valheim-server
+    volumes:
+      - ${CONFIG_PATH}:/config
+      - ${DATA_PATH}:/opt/valheim
+    env_file:
+      - .env
+    ports:
+      - 2456:2456/udp
+      - 2457:2457/udp
