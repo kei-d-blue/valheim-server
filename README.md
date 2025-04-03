@@ -2,6 +2,15 @@
 
 Dockerを使用してValheimサーバーを簡単にセットアップ・管理するためのリポジトリです。
 
+## 使用しているDockerイメージ
+
+このプロジェクトでは、[lloesche/valheim-server](https://hub.docker.com/r/lloesche/valheim-server#status-web-server) イメージを使用しています。このイメージは以下の機能を提供します：
+
+- 自動バックアップ
+- ステータスWebサーバー
+- 自動アップデート
+- カスタマイズ可能な設定
+
 ## 必要条件
 
 - Docker
